@@ -9,13 +9,15 @@ body {
   color: #ffffff;
   text-decoration: none;
   transition-duration: 0.4s;
-  background-color: black;
   padding: 12px 22px;
+  border: 2px solid white;
 }
 
 .button2:hover {
-background-color: red;
+  color: black;
+  background-color: white;
 }
+
 
 a {
   color: white;
@@ -24,3 +26,25 @@ a {
 .disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.header2 {
+  padding: 40px;
+  text-align: center;
+  background: red;
+  color: black;
+  font-size: 30px;
+}
+
+.button_header2 {
+  color: black;
+  text-decoration: none;
+  padding: 12px 22px;
+  transition: all 0.4s;
+  border: 2px solid black
+}
+
+.button_header2:hover {
+  color: white;
+  background-color: black;
+}
