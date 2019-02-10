@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: red;
+  font-family: Arial;
+}
+
+.button2 {
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  background-color: black;
+  padding: 12px 22px;
+}
+
+.button2:hover {
+background-color: red;
+}
+
+a {
+  color: white;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;

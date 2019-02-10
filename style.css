@@ -1,0 +1,23 @@
+body {
+   text-align: center;
+   font-family: Arial;
+   color: red;
+   background-color: black;
+}
+
+.button{
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  background-color: black;
+  padding: 12px 22px;
+}
+
+.button:hover {
+background-color: red;
+
+}
+
+a{
+  color: white;
+}
